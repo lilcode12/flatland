@@ -6,6 +6,10 @@ function changecolour(color) {
 
 square.addEventListener('click', (event) => changecolour('green'));
 
+/* create hover*/
+square.addEventListener('mouseover', (event) => changecolour('grey'));
+square.addEventListener('mouseout', (event) => changecolour('grey'));
+
 
 
 function createBuzzwordPhrase() {
