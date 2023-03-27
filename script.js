@@ -1,6 +1,6 @@
 var square = document.getElementById('square');
 
-function changecolour(color) {
+function changecolour(colour) {
     square.style.background = colour;
 }
 
