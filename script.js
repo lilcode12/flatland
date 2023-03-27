@@ -29,7 +29,7 @@ function createBuzzwordPhrase() {
     /* See https://en.wikipedia.org/wiki/List_of_buzzwords */
     let buzz = ["Paradigm-changing", "Multi-tier", "10,000-foot", "Agile", "Customer", "Win-win"];
     let action = ["empowered", "value-added", "synergy", "creative", "oriented", "focused", "aligned"];
-    let outcome = ["booo", "deliverable", "solution", "tipping-point", "strategy", "vision"];
+    let outcome = ["process", "deliverable", "solution", "tipping-point", "strategy", "vision"];
 
     let idx_buz = Math.floor(Math.random() * buzz.length);
     let idx_act = Math.floor(Math.random() * action.length);
