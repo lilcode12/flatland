@@ -8,7 +8,7 @@ square.addEventListener('click', (event) => changecolour('green'));
 
 /* create hover effect */
 square.addEventListener('mouseover', (event) => changecolour('grey'));
-square.addEventListener('mouseout', (event) => changecolour('grey'));
+square.addEventListener('mouseout', (event) => changecolour('red'));
 
 
 
