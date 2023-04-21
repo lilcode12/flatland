@@ -12,7 +12,7 @@ function clicked() {
 square.addEventListener('click', (event) => clicked());
 
 /* create hover effect */
-square.addEventListener('mouseover', (event) => changecolour('grey'));
+square.addEventListener('mouseover', (event) => changecolour('green'));
 square.addEventListener('mouseout', (event) => changecolour('red'));
 
 
